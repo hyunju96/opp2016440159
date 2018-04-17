@@ -8,6 +8,8 @@ public class TestAnimal {
 
 		Dog dog = new Dog("Tina");
 		dog.sing();
+		Cat cat = new Cat("Tina");
+		dog.sing();
 	}
 
 }

@@ -18,10 +18,13 @@ public class Car {
           this.speed = 60;
           numberOfCars++;
 	}
+	
+	
+	
 	//methods
 	public static void print() {
 		//정적메소드는 정적변수만 접근할 수 있다.
-//		System.out.println(this.color + ","+ this.speed ); error
+		//System.out.println(this.color + ","+ this.speed ); error
 		System.out.println(numberOfCars);
 	}
 	public String toString() {
